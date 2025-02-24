@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shashank Sarth Verma</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Me.png" alt="Shashank Sarth Verma" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Shashank Sarth Verma">Shashank Sarth <br id="name_break"> Verma</h1>
+          <a href="./Shashank_Sarth_Verma_CV.pdf" download class="button">Download CV</a>
+          <p class="title">Engineer in the Making</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon> 
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sarverjii@gmail.com" class="contact-link">sarverjii@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 9045005510</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">28 June, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>JNU, New Delhi, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/sarth.verma_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sarverjii/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/sarverjii" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+          <section class="about-text">
+            <div id="about_with_image">
+              <img src="assets/images/Mine.jpg" alt="My Photo">
+
+              <div id="text">
+                <h2>Hey, I’m Shashank Sarth Verma! 🚀</h2>
+                <p>
+                  I’m an undergraduate Computer Science student at Jawaharlal Nehru University (JNU), set to graduate in 2026. My passion lies in software development, system design, and problem-solving, where I love building efficient and scalable solutions.
+                </p>
+                <p>
+                  Currently, I’m focused on socket programming and web development, while also sharpening my skills in data structures and algorithms (DSA). I enjoy tackling complex challenges and optimizing performance in my projects.
+                </p>
+                <p>
+                  Beyond academics, I serve as the President of LooP - The Developer’s Club at JNU, where I organize hackathons, mentorship programs, and coding competitions, fostering a vibrant developer community. I also actively participate in tech events and open-source contributions.
+                </p>
+                <p>
+                  Outside of coding, I’m passionate about sports, especially cricket and badminton, having represented both my hostel and college in tournaments. When I’m not on the field or behind a screen, you’ll find me with my guitar, jamming to my favorite tunes or experimenting with new melodies. I love exploring new tech trends, brainstorming innovative ideas, and collaborating on exciting projects.
+                </p>
+                <p>Let’s connect and build something amazing together! Feel free to reach out via my socials. 🚀✨</p>
+              </div>
+            </div>
+          </section>
+        
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Building responsive and scalable websites with HTML, CSS, JavaScript, and modern frameworks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Socket Programming</h4>
+
+                <p class="service-item-text">
+                  Developing real-time communication systems and network-based applications using sockets.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile App Development</h4>
+
+                <p class="service-item-text">
+                  Creating efficient and user-friendly mobile applications using Flutter and Firebase.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-code.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Algorithmic Problem Solving</h4>
+
+                <p class="service-item-text">
+                  Practicing DSA and competitive programming to solve real-world challenges and improve code efficiency.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">School Of Engineering, JNU, New Delhi</h4>
+
+              <span>2022 - Present </span>
+
+              <p class="timeline-text">
+                Currently pursuing BTech in Computer Science at Jawaharlal Nehru University (JNU). Gained expertise in software development, web technologies, and network programming. Serving as President of LooP - The Developer's Club, organizing hackathons, tech events, and mentorship programs. Experienced in mobile app development, web development, socket programming, and competitive coding.
+              </p>
+
+            </li>
+
+            
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Children's Academy, Dehradun</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Completed Class 11 and Class 12 with a strong focus on Physics, Chemistry, and Mathematics (PCM). Developed analytical thinking and problem-solving skills, which later contributed to competitive programming and software development.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Brightlands School, Dehradun</h4>
+
+              <span>2009 - 2019</span>
+
+              <p class="timeline-text">
+                Completed Class 1 to Class 10 with a strong foundation in science and mathematics. Studied Java programming in Class 9 and 10, which introduced me to the basics of coding. Focused primarily on academics with limited exposure to software development.
+              </p>
+
+            </li>
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Socket Programming Projects</h4>
+
+              <span>December 2024</span><br>
+
+              <ol class="timeline-list">
+
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Network Calculator Project</h4>    
+                  <p class="timeline-text">
+                    Developed a multi-threaded client-server calculator that handles multiple clients
+                    simultaneously, performing arithmetic operations (addition, subtraction, multiplication, division) over a network..
+                  </p>
+    
+                </li>
+
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Multi-Client Chat Server: </h4>    
+                  <p class="timeline-text">
+                    Built a multi-threaded chat server in C using socket programming, enabling multiple
+                     clients to connect and communicate in real time.
+                  </p>
+    
+                </li>
+              </ol>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">App Development Projects</h4>
+
+              <span>September 2024</span><br>
+
+              <ol class="timeline-list">
+
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Weather Forcast App</h4>    
+                  <p class="timeline-text">
+                    A Flutter-based weather application that provides real-time weather updates for various cities, including detailed
+                    forecasts and dynamic theme switching between light and dark modes using OpenWeather API.
+                  </p>
+    
+                </li>
+
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">We Chat </h4>    
+                  <p class="timeline-text">
+                    – Designed a real-time chat application using Flutter with features like messaging, profile updates, and Firebase
+                    integration.
+                  </p>
+    
+                </li>
+              </ol>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Game Development Projects.</h4>
+
+              <span>2021 — 2023</span><br>
+
+              <ol class="timeline-list">
+
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Ninja Run</h4>    
+                  <p class="timeline-text">
+                    Created a 2D arcade game in Python using PyGame.
+                  </p>
+    
+                </li>
+
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">SkyBlocks</h4>    
+                  <p class="timeline-text">
+                    Developed a 3D arcade game in Unity using C#
+                  </p>
+    
+                </li>
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Trapped!</h4>    
+                  <p class="timeline-text">
+                    Built a 3D escape room game in Unity
+                  </p>
+    
+                </li>
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Stone Paper Scissors Robot</h4>    
+                  <p class="timeline-text">
+                    Built using Arduino, servo motors, and C++.
+                  </p>
+    
+                </li>
+              </ol>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Socket Programming using C</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">App Development using Flutter</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Front End Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structure and Algorithim</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Network Programming</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>App Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Network Programming</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>App Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Sarverjii/Portfolio">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Projects/Portfolio.png" alt="Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Sarverjii/AirPod-Max">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Projects/Airpods Max.png" alt="Airpods Max Landing Page" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Airpods Max Landing Page</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/Sarverjii/CurrencyConverter">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Projects/Currency Converter.png" alt="Currency-Converter" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Currency Converter</h3>
+
+                <p class="project-category">App Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/Sarverjii/Weather_App">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Projects/Weather App.png" alt="Weather-App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather App</h3>
+
+                <p class="project-category">App Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="network programming">
+              <a href="https://github.com/Sarverjii/network-calculator">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Projects/Network Calculator.png" alt="Network-Calculator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Network Calculator.</h3>
+
+                <p class="project-category">Network Programming</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="network programming">
+              <a href="https://github.com/Sarverjii/Network-Chat-Application">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Projects/Network Chat.gif" alt="Network-Chat-Application" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Network Group Chat</h3>
+
+                <p class="project-category">Network Programming</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.9346811331993!2d77.16297207628051!3d28.5416829757145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ddf872ac9eb%3A0xd9eafc4c2e670bc6!2sSchool%20of%20Engineering!5e0!3m2!1sen!2sin!4v1740399911607!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
